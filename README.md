@@ -16,7 +16,7 @@ Hum(ai)n is a Chrome extension that brings AI-powered assistance to your web bro
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/hamhunter23/humain.git
+   git clone https://github.com/Hamhunter23/humain.git
    ```
 
 2. Open Chrome and navigate to `chrome://extensions/`
