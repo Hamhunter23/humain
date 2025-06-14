@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Hum(ai)n",
+  "version": "1.0",
+  "description": "Ask questions about webpage",
+  "icons": {
+    "128": "Icon/H.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "Icon/H.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["marked.min.js", "purify.min.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+} 
