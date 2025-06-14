@@ -16,7 +16,7 @@ Hum(ai)n is a Chrome extension that brings AI-powered assistance to your web bro
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/humain.git
+   git clone https://github.com/hamhunter23/humain.git
    ```
 
 2. Open Chrome and navigate to `chrome://extensions/`
@@ -76,16 +76,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-If you encounter any issues or have questions, please:
-1. Check the [FAQ](link-to-faq)
-2. Open an issue in the GitHub repository
-3. Contact the maintainers
-
-## Acknowledgments
-
-- Google Gemini AI for powering the intelligence
-- Chrome Extension API for the platform
-- All contributors and users of Hum(ai)n #
